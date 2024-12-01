@@ -2,26 +2,25 @@
     
     "Preview": {
         "source": "https://github.com/MrKali7/custompro3.git",
-        "branch": "main",
+        "branch": "main", 
         "env": {
-            "API_HASH": "d188b95fd99b5a5410b8eef5fac7f132",
-            "APP_ID": "24984353",
-            "CHANNEL_ID": "-1002103196928",
-            "DB_NAME": "Cluster0",
-            "DB_URI": "mongodb+srv://molasa7348:29TiLiVemOcKUmxf@cluster0.9dkky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-            "DELETE_AFTER": "30",
-            "FORCE_SUB_CHANNEL": "0",
-            "FORCE_SUB_CHANNEL2": "0",
-            "FORCE_SUB_CHANNEL3": "0",
-            "FORCE_SUB_CHANNEL4": "0",
-            "OWNER_ID": "6147843565",
-            "OWNER": "iAdmin77_Bot",
-            "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
-            "SHORTLINK_API": "2b491547a49b1d8274e9a619c8258029ef2b8bd0",
-            "SHORTLINK_URL": "offerlinks.in",
-            "TG_BOT_TOKEN": "7721182861:AAFgwfxFUeFWJkdPQ07cw_ZMQab6YHDPvXU",
-            "TUT_VID": "https://t.me/Bypassurltut",
-            "PORT": "8020"
+            "API_HASH":"5f7d3dc656c008c70bffdf7f4f9b8ebb",
+            "APP_ID":"21863401",
+            "CHANNEL_ID":"-1001830594381",
+            "DB_NAME":"Cluster0",
+            "DB_URI":"mongodb+srv://molasa7348:29TiLiVemOcKUmxf@cluster0.9dkky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "DELETE_AFTER":3,
+            "FORCE_SUB_CHANNEL":"-1001830594381",
+            "FORCE_SUB_CHANNEL2":"-1001830594381",
+            "FORCE_SUB_CHANNEL3":"-1001830594381",
+            "FORCE_SUB_CHANNEL4":"-1001830594381",
+
+            "NOTIFICATION_TIME":5,
+            "OWNER_ID":"6230356497",
+            "OWNER":"iAdmin77_Bot",
+            "TG_BOT_TOKEN":"6748708552:AAEya6awhAuxwhR7ujfPWsko7j1GkCjPWjk",
+            "TUT_VID":"https://t.me/Bypassurltut",
+            "PORT":"80"  
         },
         "run": "main.py"
     }
