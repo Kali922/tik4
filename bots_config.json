@@ -1,0 +1,27 @@
+{
+    
+    "Preview": {
+        "source": "https://github.com/MrKali7/custompro3.git",
+        "branch": "main", 
+        "env": {
+            "API_HASH":"5f7d3dc656c008c70bffdf7f4f9b8ebb",
+            "APP_ID":"21863401",
+            "CHANNEL_ID":"-1001830594381",
+            "DB_NAME":"Cluster0",
+            "DB_URI":"mongodb+srv://molasa7348:29TiLiVemOcKUmxf@cluster0.9dkky.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "DELETE_AFTER":3,
+            "FORCE_SUB_CHANNEL":"0",
+            "FORCE_SUB_CHANNEL2":"0",
+            "FORCE_SUB_CHANNEL3":"0",
+            "FORCE_SUB_CHANNEL4":"0",
+
+            "NOTIFICATION_TIME":5,
+            "OWNER_ID":"6230356497",
+            "OWNER":"iAdmin77_Bot",
+            "TG_BOT_TOKEN":"6748708552:AAEya6awhAuxwhR7ujfPWsko7j1GkCjPWjk",
+            "TUT_VID":"https://t.me/Bypassurltut",
+            "PORT":"8020"  
+        },
+        "run": "main.py"  
+    }
+}
