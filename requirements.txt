@@ -1,6 +1,19 @@
-flask
-requests
-pandas
-flask
-requests
-pandas
+# Standard library modules do not require installation, but external dependencies do.
+# External dependencies for managing bots and system commands:
+
+# For JSON configuration management
+jsonschema==4.19.0
+
+# For subprocess and running commands safely (no direct library required; using Python's built-in)
+# Use psutil for advanced process management, if needed
+psutil==5.9.7
+
+# GitPython for programmatically handling git operations (optional, can replace direct subprocess git calls)
+GitPython==3.1.36
+
+# Optional: If Flask or any additional library is required for this project
+Flask==3.0.0  
+
+# Ensure the latest version of pip and setuptools for package management
+setuptools>=67.0
+pip>=23.0
