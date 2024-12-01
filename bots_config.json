@@ -44,7 +44,7 @@
             "OWNER":"iAdmin77_Bot",
             "TG_BOT_TOKEN":"6748708552:AAEya6awhAuxwhR7ujfPWsko7j1GkCjPWjk",
             "TUT_VID":"https://t.me/Bypassurltut",
-            "PORT":"80"  
+            "PORT":"8080"  
         },
         "run": "main.py"  
     }
