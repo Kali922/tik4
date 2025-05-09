@@ -97,30 +97,5 @@
             "PORT": "8030"
         },
         "run": "main.py"
-    },
-    "premium3": {
-        "source": "https://github.com/MrKali7/custompro1-orignal.git",
-        "branch": "main",
-        "env": {
-            "API_HASH": "d188b95fd99b5a5410b8eef5fac7f132",
-            "APP_ID": "24984353",
-            "CHANNEL_ID": "-1002617496785",
-            "DB_NAME": "Prem3",
-            "DB_URI": "mongodb+srv://tisav35201:vwyrrH8YGMRuQAyZ@prem3.yjuzx4y.mongodb.net/?retryWrites=true&w=majority&appName=Prem3",
-            "DELETE_AFTER": "1500",
-            "FORCE_SUB_CHANNEL": "0",
-            "FORCE_SUB_CHANNEL2": "0",
-            "FORCE_SUB_CHANNEL3": "0",
-            "FORCE_SUB_CHANNEL4": "0",
-            "OWNER_ID": "6147843565",
-            "OWNER": "iAdmin77_Bot",
-            "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
-            "SHORTLINK_API": "f627ffc8823c36be80c3a2d3624f1321fc7595ce",
-            "SHORTLINK_URL": "vplink.in",
-            "TG_BOT_TOKEN": "8002472857:AAFU2bCztrQL6J8XzkBmMU7cHeRkIlMr4xo",
-            "TUT_VID": "https://t.me/Bypassurltut",
-            "PORT": "8050"
-        },
-        "run": "main.py"
     }
 }
