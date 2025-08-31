@@ -1,53 +1,4 @@
 {
-    "Fileexporterbot": {
-        "source": "https://github.com/MrKali7/custompro3-noverify-nopremium.git",
-        "branch": "main",
-        "env": {
-            "API_HASH": "d188b95fd99b5a5410b8eef5fac7f132",
-            "APP_ID": "24984353",
-            "CHANNEL_ID": "-1002007249580",
-            "DELETE_AFTER":"600",
-            "DB_NAME": "Cluster0",
-            "DB_URI": "mongodb+srv://FileExport:FileExport@cluster0.nk1j9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-            "FORCE_SUB_CHANNEL": "-1001602408447",
-            "FORCE_SUB_CHANNEL2": "-1002091491280",
-            "FORCE_SUB_CHANNEL3": "-1002091491280",
-            "FORCE_SUB_CHANNEL4": "-1002091491280",
-            "OWNER_ID": "6147843565",
-            "OWNER": "iAdmin77_Bot",
-            "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
-            "SHORTLINK_API": "2b491547a49b1d8274e9a619c8258029ef2b8bd0",
-            "SHORTLINK_URL": "offerlinks.in",
-            "TG_BOT_TOKEN": "7849968867:AAFKQVytkJOCgY4NywFLXonZ0PDr-yfs3lA",
-            "TUT_VID": "https://t.me/Bypassurltut",
-            "PORT": "8040"
-        },
-        "run": "main.py"
-    },
-    "Permiumbot": {
-        "source": "https://github.com/MrKali7/custompro1-orignal.git",
-        "branch": "main",
-        "env": {
-            "API_HASH": "d188b95fd99b5a5410b8eef5fac7f132",
-            "APP_ID": "24984353",
-            "CHANNEL_ID": "-1002063617973",
-            "DB_NAME": "Cluster0",
-            "DB_URI": "mongodb+srv://diroda8150:Qt3X48eteIUNRD4Z@cluster0.feuel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
-            "FORCE_SUB_CHANNEL": "0",
-            "FORCE_SUB_CHANNEL2": "0",
-            "FORCE_SUB_CHANNEL3": "0",
-            "FORCE_SUB_CHANNEL4": "0",
-            "OWNER_ID": "6147843565",
-            "OWNER": "iAdmin77_Bot",
-            "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
-            "SHORTLINK_API": "cd94f9868b5cda3f3b9e54786598bd682ff27d4c",
-            "SHORTLINK_URL": "seturl.in",
-            "TG_BOT_TOKEN": "7536000467:AAH4cyeHlquGk1_KSYKfxXvfzTe3cEpa6yk",
-            "TUT_VID": "https://t.me/Bypassurltut",
-            "PORT": "8010"
-        },
-        "run": "main.py"
-    },
     "Preview": {
         "source": "https://github.com/MrKali7/custompro3-noverify-nopremium.git",
         "branch": "main",
@@ -65,11 +16,60 @@
             "OWNER_ID": "6147843565",
             "OWNER": "iAdmin77_Bot",
             "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
-            "SHORTLINK_API": "2b491547a49b1d8274e9a619c8258029ef2b8bd0",
-            "SHORTLINK_URL": "offerlinks.in",
+            "SHORTLINK_API": "123cfa5993258f3f1fbe8bd7e9d82afe728464f0",
+            "SHORTLINK_URL": "yorurl.com",
             "TG_BOT_TOKEN": "7116910212:AAEcJ2suuDLJ3uOXecm9OfxNpq74vnZ7UCI",
             "TUT_VID": "https://t.me/Bypassurltut",
+            "PORT": "8010"
+        },
+        "run": "main.py"
+    },
+    "Fileexporterbot": {
+        "source": "https://github.com/MrKali7/custompro3-noverify-nopremium.git",
+        "branch": "main",
+        "env": {
+            "API_HASH": "d188b95fd99b5a5410b8eef5fac7f132",
+            "APP_ID": "24984353",
+            "CHANNEL_ID": "-1002007249580",
+            "DELETE_AFTER":"600",
+            "DB_NAME": "Cluster0",
+            "DB_URI": "mongodb+srv://mrk278800_db_user:m4nz7U9xjGWc0sCt@cluster0.itoczjd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "FORCE_SUB_CHANNEL": "-1001602408447",
+            "FORCE_SUB_CHANNEL2": "-1002091491280",
+            "FORCE_SUB_CHANNEL3": "-1002091491280",
+            "FORCE_SUB_CHANNEL4": "-1002091491280",
+            "OWNER_ID": "6147843565",
+            "OWNER": "iAdmin77_Bot",
+            "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
+            "SHORTLINK_API": "123cfa5993258f3f1fbe8bd7e9d82afe728464f0",
+            "SHORTLINK_URL": "yorurl.com",
+            "TG_BOT_TOKEN": "7849968867:AAFKQVytkJOCgY4NywFLXonZ0PDr-yfs3lA",
+            "TUT_VID": "https://t.me/Bypassurltut",
             "PORT": "8020"
+        },
+        "run": "main.py"
+    },
+    "Permiumbot": {
+        "source": "https://github.com/MrKali7/custompro1-orignal.git",
+        "branch": "main",
+        "env": {
+            "API_HASH": "d188b95fd99b5a5410b8eef5fac7f132",
+            "APP_ID": "24984353",
+            "CHANNEL_ID": "-1002063617973",
+            "DB_NAME": "Cluster0",
+            "DB_URI": "mongodb+srv://premium1:Ajb5tLYjhy2cH16H@cluster0.tlngzlo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "FORCE_SUB_CHANNEL": "0",
+            "FORCE_SUB_CHANNEL2": "0",
+            "FORCE_SUB_CHANNEL3": "0",
+            "FORCE_SUB_CHANNEL4": "0",
+            "OWNER_ID": "6147843565",
+            "OWNER": "iAdmin77_Bot",
+            "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
+            "SHORTLINK_API": "123cfa5993258f3f1fbe8bd7e9d82afe728464f0",
+            "SHORTLINK_URL": "yorurl.com",
+            "TG_BOT_TOKEN": "7536000467:AAH4cyeHlquGk1_KSYKfxXvfzTe3cEpa6yk",
+            "TUT_VID": "https://t.me/Bypassurltut",
+            "PORT": "8030"
         },
         "run": "main.py"
     },
@@ -81,7 +81,7 @@
             "APP_ID": "24984353",
             "CHANNEL_ID": "-1002103196928",
             "DB_NAME": "Cluster0",
-            "DB_URI": "mongodb+srv://pree2:giXvj9YWpPRaogfJ@cluster0.xfda8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+            "DB_URI": "mongodb+srv://premium2:QgYgy2w1gsKL4z8Z@cluster0.xyt6iok.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
             "DELETE_AFTER": "1500",
             "FORCE_SUB_CHANNEL": "0",
             "FORCE_SUB_CHANNEL2": "0",
@@ -90,11 +90,11 @@
             "OWNER_ID": "6147843565",
             "OWNER": "iAdmin77_Bot",
             "PAYMENT_QR": "https://ibb.co/rb6vnwZ",
-            "SHORTLINK_API": "0932675c300740eadca551b7373b0c9d3fabbd56",
-            "SHORTLINK_URL": "shortner.in",
+            "SHORTLINK_API": "123cfa5993258f3f1fbe8bd7e9d82afe728464f0",
+            "SHORTLINK_URL": "yorurl.com",
             "TG_BOT_TOKEN": "7801594199:AAHbnh1aXzZihMCHtl8I_LV7F33fHtU9-L0",
             "TUT_VID": "https://t.me/Bypassurltut",
-            "PORT": "8030"
+            "PORT": "8040"
         },
         "run": "main.py"
     }
