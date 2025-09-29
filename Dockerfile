@@ -13,7 +13,12 @@ RUN apt-get update && \
     jq \
     python3 \
     python3-pip && \
-    apt-get clean
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
+
+# Create a non-root user (UID 10014)
+RUN groupadd --system appgroup && \
+    useradd --system --uid 10014 --gid appgroup --create-home appuser
 
 # Set the working directory inside the container
 WORKDIR /app
@@ -25,14 +30,17 @@ COPY bots_config.json /app/bots_config.json
 COPY requirements.txt /app/requirements.txt
 COPY README.md /app/README.md
 
-# Make the scripts executable
-RUN chmod +x /app/build_bots.py /app/run_bots.py
+# Change ownership of app files to non-root user
+RUN chown -R appuser:appgroup /app
 
-# Install Python dependencies
-RUN pip3 install -r requirements.txt
+# Install Python dependencies as root
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-# If build_bots.py installs dependencies, run it here
+# Run build script as root (if needed for dependencies)
 RUN python3 build_bots.py
+
+# Switch to non-root user
+USER 10014
 
 # Define the default command to run when the container starts
 CMD ["python3", "run_bots.py"]
