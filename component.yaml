@@ -1,0 +1,8 @@
+name: my-service
+version: 1.0.0
+type: service
+endpoints:
+  - name: httpEndpoint
+    type: http
+    port: 8080
+    networkVisibility: Public
