@@ -1,10 +1,10 @@
-# Use an official base image (e.g., Ubuntu)
+# Use an official base image
 FROM ubuntu:20.04
 
-# Set environment variables (if needed for the project)
+# Avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Install necessary dependencies, including python3 and pip3
+# Install system dependencies
 RUN apt-get update && \
     apt-get install -y \
     bash \
@@ -20,27 +20,24 @@ RUN apt-get update && \
 RUN groupadd --system appgroup && \
     useradd --system --uid 10014 --gid appgroup --create-home appuser
 
-# Set the working directory inside the container
+# Set working directory
 WORKDIR /app
 
-# Copy project files into the container
+# Copy project files
 COPY build_bots.py /app/build_bots.py
 COPY run_bots.py /app/run_bots.py
 COPY bots_config.json /app/bots_config.json
 COPY requirements.txt /app/requirements.txt
 COPY README.md /app/README.md
 
-# Change ownership of app files to non-root user
+# Change ownership
 RUN chown -R appuser:appgroup /app
 
-# Install Python dependencies as root
+# Install Python dependencies
 RUN pip3 install --no-cache-dir -r requirements.txt
-
-# Run build script as root (if needed for dependencies)
-RUN python3 build_bots.py
 
 # Switch to non-root user
 USER 10014
 
-# Define the default command to run when the container starts
-CMD ["python3", "run_bots.py"]
+# Clone and run bots when container starts (not during build)
+CMD bash -c "python3 build_bots.py && python3 run_bots.py"
