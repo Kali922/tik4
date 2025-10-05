@@ -1,4 +1,15 @@
 import subprocess
+import os
+
+# For Linux (Debian/Ubuntu/Kali)
+os.system("sudo apt update && sudo apt install -y git")
+
+# OR for Windows
+# os.system("choco install git -y")
+
+# OR for macOS
+# os.system("brew install git")
+
 
 def run_command(command, wait=True):
     """Run a shell command and stream output live."""
