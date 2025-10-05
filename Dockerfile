@@ -21,7 +21,7 @@ RUN groupadd --system appgroup && \
     useradd --system --uid 10014 --gid appgroup --create-home appuser
 
 # Set working directory
-WORKDIR /app
+WORKDIR /tmp/app
 
 # Copy project files
 COPY build_bots.py /app/build_bots.py
